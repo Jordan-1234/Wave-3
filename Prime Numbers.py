@@ -7,7 +7,7 @@ def primefactors(n):
         else:
             factor += 1
 
-    if n < 2: 
+    if n < 1: 
         print("Cannot be factored")
 
 n = int(input("Enter a number (2 or greater): "))
